@@ -4,13 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Agency</title>
   <!-- jquery for the loader -->
   <script src="js/jquery-3.6.1.min.js"></script>
   <!-- css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- swiper css -->
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <title>Design Agency</title>
+  <!-- for the prices -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- Fontawesome CDN Link for contact us form -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <!-- favcon -->
+  <link rel="icon" type="image/x-icon" href="./pictures/favicon.ico">
 </head>
 <body>
 
@@ -23,91 +29,104 @@
   <div id="progress">
     <span id="progress-value">&#x1F815</span>
   </div>
-  <!-- main -->
-    <section id="main">
-      <div class="responsive-bottom-nav">
-        <ul class="nav-links">
-          <li><a href="#services">ألخدمات</a></li>
-          <li><a href="#testimonials">آراء ألعملاء</a></li>
-          <li><a href="#projects">ألمشاريع</a></li>
-          <li><a href="#contact-us">تواصل معنا</a></li>
-        </ul>
-      </div>
-      <nav class="main-bar">
-        <div class="logo">
-          <img src="pictures/logo.png" alt="Design Agency logo">
+  <!-- Header -->
+  <header id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#hero">
+                    <img src="./pictures/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
+                <ul>
+                    <li><a href="#hero" data-after="ألرئيسية">ألصفحة ألرئيسية</a></li>
+                    <li><a href="#services" data-after="ألخدمات">ألخدمات</a></li>
+                    <li><a href="#testimonials" data-after="ألآراء">آراء ألعملاء</a></li>
+                    <li><a href="#projects" data-after="ألمشاريع">ألمشاريع</a></li>
+                    <li><a href="#contact-us" data-after="تواصل">تواصل معنا</a></li>
+                </ul>
+            </div>
         </div>
-          <div class="social-icons">
-            <div class="social-item linkedin">
-                <a href="#"><i class="fab fa-brands fa-linkedin"></i></a>
+    </div>
+</header>
+<!-- EndHeader -->
+
+<!-- Hero Section -->
+<section id="hero">
+    <div class="hero container">
+        <div class="text">
+            <div>
+                <h1>مرحبا<span></span></h1>
+                <p>هل تريد توسيع علامتك التجارية؟<span></span></p>
+                <p>هل تريد الحصول على عملاء أكثر <span></span></p>
+                <p>معنا  يمكنك فعل ذلك واكثر<span></span></p>
+                <p>أحصل على موقع ألكتروني ألآن<span></span></p>
+                <a href="#projects" type="button" class="cta">أشتر ألآن</a>
             </div>
-            <div class="social-item instagram">
-                <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
-            </div>
-            <div class="social-item facebook">
-                <a href="#"><i class="fab fa-brands fa-facebook-square"></i></a>
-            </div>
-            <div class="social-item twitter">
-                <a href="#"><i class="fab fa-brands fa-twitter"></i></a>
-            </div>
-          </div>
-          <ul class="nav-links">
-            <li><a href="#main">ألصفحة ألرئيسية</a></li>
-            <li><a href="#services">ألخدمات</a></li>
-            <li><a href="#testimonials">آراء ألعملاء</a></li>
-            <li><a href="#projects">ألمشاريع</a></li>
-            <li><a href="#contact-us">تواصل معنا</a></li>
-          </ul>
-      </nav>
-      <div class="main-text">
-        <h1>مرحبا</h1>
-        <p>هل تريد توسيع علامتك التجارية؟<br>
-          هل تريد الحصول على عملاء أكثر<br>
-          معنا  يمكنك فعل ذلك واكثر<br>
-          أحصل على موقع ألكتروني ألآن</p>
-        <a href="#"><button>أشتر ألآن</button></a>
-      </div>
-    </section>
-  
-    
-  <!-- end main -->
+            <div class="social-icons">
+                <div class="social-item linkedin">
+                    <a href="#"><i class="fab fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="social-item instagram">
+                    <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="social-item facebook">
+                    <a href="#"><i class="fab fa-brands fa-facebook-square"></i></a>
+                </div>
+                <div class="social-item twitter">
+                    <a href="#"><i class="fab fa-brands fa-twitter"></i></a>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+</section>
   <section id="services">
     <div class="title">
       <h1>ألخدمات</h1>
-      <p>نحن نوفر لعملائنا مواقع ألكترونية كاملة<br>
-        من حيث ألتصميم وألبرمجة وحل أي<br>
-        مشاكل مستقبلية تحصل للموقع</p>
+      <p>نحن نوفر لعملائنا مواقع ألكترونية كاملة من حيث ألتصميم وألبرمجة 
+        <br>وحل أي مشاكل مستقبلية تحصل للموقع</p>
     </div>
 
-    <div class="odd">
-      <div class="UX-UI-Design">
-        <img src="pictures/ux ui.jpg" alt="UX/UI Design">
-        <h1>UX/UI Design</h1>
-        <p>ألبحث عن فئة عملائك وتصميم ألموقع طبقا <br>
-          لأحتياجاتهم, أعمارهم وجنسهم
-        </p>
-        <div class="purple-line"></div>
-      </div>
-    </div>
+    <div class="container">
+      <div class="cards">
+        <a class="card" href="#">
+          <span class="card-header" style="background-image: url(./pictures/ux\ ui.jpg);">
+            <span class="card-title">
+              <h3>UX/UI Design</h3>
+            </span>
+          </span>
+          <span class="card-summary">
+            ألبحث عن فئة عملائك وتصميم ألموقع طبقا لأحتياجاتهم, أعمارهم وجنسهم
+          </span>
+        </a>
     
-
-    <div class="Responsive-Design">
-      <img src="pictures/Responsive.jpg" alt="Responsive Design">
-      <h1>Responsive Design</h1>
-      <p>تصميم وبرمجة ألموقع لكي يعمل على جميع <br>
-        ألاجهزة سواء كانت هواتف, لابتوب أو حواسيب
-      </p>
-      <div class="purple-line"></div>
-    </div>
-
-    <div class="odd">
-      <div class="HTML-CSS-JavaScript">
-        <img src="pictures/html-css-javascript.jpg" alt="HTML, CSS and JavaScript">
-        <h1>HTML, CSS and JavaScript</h1>
-        <p>برمجة ألموقع بلغات برمجة ألويب بعد أكتمال <br>
-          التصميم
-        </p>
-        <div class="purple-line"></div>
+        <a class="card" href="#">
+          <span class="card-header" style="background-image: url(./pictures/Responsive.jpg);">
+            <span class="card-title">
+              <h3>Responsive Design</h3>
+            </span>
+          </span>
+          <span class="card-summary">
+            تصميم وبرمجة ألموقع لكي يعمل على جميع ألاجهزة سواء كانت هواتف, لابتوب أو حواسيب
+          </span>
+        </a>
+        
+        <a class="card" href="#">
+          <span class="card-header" style="background-image: url(./pictures/html-css-javascript.jpg)">
+            <span class="card-title">
+              <h3>HTML, CSS and JavaScript</h3>
+            </span>
+          </span>
+          <span class="card-summary">
+            برمجة ألموقع بلغات برمجة ألويب بعد أكتمال التصميم
+          </span>
+        </a>
+    
       </div>
     </div>
   </section>
@@ -160,31 +179,39 @@
 
   <section id="projects">
     <h1 class="title">ألاعمال وألتصاميم</h1>
-    <div class="project-card odd project1">
-      <p>موقع ألكتروني للمهندس تيسلا حيث<br>
-        يعرض خدماته ومشاريعه و مواقعه<br>
-        للتواصل ألاجتماعي</p>
-      <img src="pictures/Tesla.jpg" alt="website project">
+    <div class="cards">
+    <div class="card">
+      <h1>مهندس</h1>
+      <div class="content">
+        <p>موقع ألكتروني للمهندس تيسلا حيث يعرض خدماته ومشاريعه و مواقعه  للتواصل ألاجتماعي</p><a href="">زر ألموقع</a>
+      </div>
+      <div class="img"><img src="./pictures/Tesla.jpg" alt=""></div>
     </div>
-    <div class="project-card even project2">
-      <img src="pictures/مطعم ألباشا.jpg" alt="website project">
-      <p>موقع مطعم ألباشا لتجهيز ألمشويات<br>
-        للأعراس وألمناسابات حيث يعرض وجباتهم<br>
-        مع ألاسعار وكذلك موقعهم ألجغرافي</p>
+  
+    <div class="card">
+      <h1>مطعم</h1>
+      <div class="content">
+        <p>موقع مطعم ألباشا لتجهيز ألمشويات للأعراس وألمناسابات حيث يعرض وجباتهم مع ألاسعار وكذلك موقعهم ألجغرافي</p><a href="">زر ألموقع</a>
+      </div>
+      <div class="img"><img src="./pictures/مطعم ألباشا.jpg" alt=""></div>
     </div>
-    <div class="project-card odd project3">
-      <p>موقع متجر للقهوة يعرض أنواع ووصفات<br>
-        ألقهوة التي يحضرونها مع الأسعار وكذلك<br>
-        ألموقع ألجغرافي للمتجر</p>
-      <img src="pictures/coffee.jpg" alt="website project">
+  
+    <div class="card">
+      <h1>قهوة</h1>
+      <div class="content">
+        <p>موقع متجر للقهوة يعرض أنواع ووصفات ألقهوة التي يحضرونها مع الأسعار وكذلك ألموقع ألجغرافي للمتجر </p><a href="">زر ألموقع</a>
+      </div>
+      <div class="img"><img src="./pictures/coffee.jpg" alt=""></div>
     </div>
-    <div class="project-card even project4">
-      <img src="pictures/منى.jpg" alt="website project">
-      <p>موقع ألطباخة منى يعرض وصفات ألكعك<br>
-        التي تحضرها مع ألاسعار وكذلك مواقها<br>
-        للتواصل ألاجتماعي </p>
+  
+    <div class="card">
+      <h1>طباخة</h1>
+      <div class="content">
+        <p>موقع ألطباخة منى يعرض وصفات ألكعك التي تحضرها مع ألاسعار وكذلك مواقها للتواصل ألاجتماعي</p><a href="">زر ألموقع</a>
+      </div>
+      <div class="img"><img src="./pictures/منى.jpg" alt=""></div>
     </div>
-
+  </div>
     <div class="mini-title">
       <h1>وأعمال كثيرة أخرى</h1>
     </div>
@@ -195,114 +222,150 @@
     <h1 class="title">
       الأسعار
     </h1>
-    <div class="price-cards">
-      <div class="basic card">
-        <img src="pictures/basicImg.png" class="main-img" alt="basic price">
-
-        <div class="features">
-          <div class="feature">
-            <p>تصميم ألموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>برمجة ألموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>نشر ألموقع لمدة سنة</p>
-            <img src="pictures/false.png" alt="false sign">
-          </div>
-
-          <div class="feature">
-            <p>ألحصول على أسم للموقع</p>
-            <img src="pictures/false.png" alt="false sign">
-          </div>
-          
-          <div class="feature">
-            <p>حل أي مشاكل مستقبلية</p>
-            <img src="pictures/false.png" alt="false sign">
+    <div class="wrapper">
+      <div class="table basic">
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="price">125,000</span>
+            </div>
           </div>
         </div>
-        <div class="btn"></div>
-        <a href=""><button>أشتري</button></a>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">تصميم ألموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">برمجة ألموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">نشر ألموقع لمدة سنة</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+          <li>
+            <span class="list-name">ألحصول على أسم للموقع</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+          <li>
+            <span class="list-name">حل أي مشاكل مستقبلية</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+        </ul>
+        <div class="btn"><button>أشتر ألآن</button></div>
       </div>
-      <div class="standard card">
-        <img src="pictures/standardImg.png" class="main-img" alt="standard price">
-
-        <div class="features">
-          <div class="feature">
-            <p>تصميم ألموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>برمجة ألموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>نشر ألموقع لمدة سنة</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>ألحصول على أسم للموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>حل أي مشاكل مستقبلية</p>
-            <img src="pictures/false.png" alt="false sign">
+      <div class="table premium">
+        <div class="ribbon"><span>ألأكثر طلبا</span></div>
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="price">150,000</span>
+            </div>
           </div>
         </div>
-
-        <a href=""><button>أشتري</button></a>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">تصميم ألموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">برمجة ألموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">نشر ألموقع لمدة سنة</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">ألحصول على أسم للموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">حل أي مشاكل مستقبلية</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+        </ul>
+        <div class="btn"><button>أشتر ألآن</button></div>
       </div>
-      <div class="premium card">
-        <img src="pictures/premiumImg.png" class="main-img" alt="premium price">
-
-        <div class="features">
-          <div class="feature">
-            <p>تصميم ألموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>برمجة ألموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>نشر ألموقع لمدة سنة</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-
-          <div class="feature">
-            <p>ألحصول على أسم للموقع</p>
-            <img src="pictures/true.png" alt="true sign">
-          </div>
-          
-          <div class="feature">
-            <p>حل أي مشاكل مستقبلية</p>
-            <img src="pictures/true.png" alt="true sign">
+      <div class="table ultimate">
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="price">175,000</span>
+            </div>
           </div>
         </div>
-
-        <a href=""><button>أشتري</button></a>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">تصميم ألموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">برمجة ألموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">نشر ألموقع لمدة سنة</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">ألحصول على أسم للموقع</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">حل أي مشاكل مستقبلية</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+        </ul>
+        <div class="btn"><button>أشتر ألآن</button></div>
       </div>
     </div>
   </section>
 
+  <!-- contact us -->
+
   <section id="contact-us">
-    <div class="contact-card">
-      <h1 class="title">تواصل معنا</h1>
-      <input type="text" name="name" placeholder="Your Name" id="name">
-      <input type="email" name="email" placeholder="Your Email" id="email">
-      <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
-      <a href=""><div class="circle"><img src="pictures/sendMessage.png" alt="telegram icon"></div></a>
+    <div class="title">
+      <h1>تواصل معنا</h1>
     </div>
+    <div class="form">
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">0751 079 1599</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">designagency4@gmail.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Enter your email">
+          </div>
+          <div class="input-box message-box">
+            <textarea placeholder="Enter your message"></textarea>
+          </div>
+          <div class="button">
+            <input type="button" value="أرسل ألآن" >
+          </div>
+        </form>
+      </div>
+      </div>
+      </div>
+      </div>
     <div class="copyright">
       <p>Copyright @ Design Agency 2022. All rights reserved</p>
     </div>
